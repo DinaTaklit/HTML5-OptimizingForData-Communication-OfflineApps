@@ -1,0 +1,176 @@
+.nav {
+    padding: 1em;
+    font-size: .75em;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    font-weight: bold;
+    color: #999;
+    z-index: 900;
+}
+
+.message-box {
+    padding: 2em;
+    margin-top:2em;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+}
+
+details summary,
+details summary::-webkit-details-marker {
+    cursor: pointer;
+}
+
+details summary:not(.browser-default),
+details summary::-webkit-details-marker:not(.browser-default) {
+    color: #ccc;
+}
+
+details summary:focus {
+    outline:none;
+}
+
+details:not(.browser-default) {
+    margin-top: 2em;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+pre {
+    background-color: #1E1E1E;
+    border-radius: 3px;
+}
+
+pre code {
+    font-size: 1.45em;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    height: 800px;
+}
+
+.hero {
+    padding-top: 1em;
+}
+
+.hero-main {
+    padding: 3em 0 1em;
+}
+
+.logo {
+    margin-top: 3px;
+}
+
+.push-down-top-lg {
+    margin-top: 8em;
+}
+
+.push-down-top-md {
+    margin-top: 4em;
+}
+
+.push-down-top-sm {
+    margin-top: 2em;
+}
+
+.push-down-top-xs {
+    margin-top: 1em;
+}
+
+.push-down-top-xxs {
+    margin-top: 6px;
+}
+
+.quota-file-label {
+    display: block;
+    position: absolute;
+    top: 132px;
+    z-index: 200;
+    left: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+pre code.wrap {
+    white-space: pre-wrap;
+}
+
+.dark {
+    background-color: #1E1E1E !important;
+    border: 0 !important;
+    color: #1E1E1E !important;
+}
+
+a.dark,
+input.dark,
+div.dark {
+    visibility: hidden !important;
+}
+
+.dark details summary {
+    color: #667;
+}
+
+.none {
+    display: none;
+}
+
+pre.long-code {
+    max-height: 10em;
+    margin-top: 2em;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.is-borderless {
+    border:0;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.push-down-left-xxs {
+    margin-left:8px;
+}
+
+.card {
+    border: solid 1px #fff;
+}
+
+.card:hover {
+    background-color: #f8f8f8;
+    border: solid 1px #eee;
+}
+
+.column .card {
+    min-height: 280px;
+}
+
+.card-content .title {
+    margin-bottom: .2em;
+    font-size: 1em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #667;
+}
+
+#message.code {
+    font-family: Consolas, sans-serif;
+    font-size: 1.35em;
+}
+
+.push-down-top-md {
+    margin-top: 20px;
+}
+
+.level-left > .logo {
+    margin-right: .25rem !important;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "building-on-html5",
+  "version": "1.0.0",
+  "description": "Demos for Building on HTML5 for Pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "ws-hello": "node web-sockets/hello/hello.js",
+    "ws-ticker": "node web-sockets/ticker/ticker.js"
+  },
+  "author": "Craig Shoemaker <craig@craigshoemaker.net>",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.3",
+    "ws": "^6.2.0"
+  }
+}
